@@ -2,7 +2,6 @@ from fastapi import FastAPI, Depends
 from sqlalchemy import text
 from sqlalchemy.orm import Session
 from app.db import get_db, engine, Base
-import app.models
 import uvicorn
 
 # Create database tables
